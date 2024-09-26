@@ -2,6 +2,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 body{
   font-family: "Playwrite DE Grund", cursive;
@@ -13,7 +14,7 @@ body{
     font-weight: bold;
 }
 .a{
-    color: blue;
+    color: skyblue;
 }
 nav>ul{
     display: flex;
@@ -26,4 +27,21 @@ nav li {
 nav a{
     text-decoration: none;
     color: grey;
+}
+.head{
+    background-color: rgb(151, 171, 179);
+}
+.space{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.button{
+    border-radius: 5px;
+    background: skyblue;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
 }
