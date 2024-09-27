@@ -30,6 +30,8 @@ nav a{
 }
 .head{
     background-color: rgb(151, 171, 179);
+    background-image: url('../images/')
+    background-repeat: no-repeat;
 }
 .space{
     padding: 30px 30px 30px 150px;
