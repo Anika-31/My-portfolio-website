@@ -26,7 +26,7 @@ nav li {
 }     
 nav a{
     text-decoration: none;
-    color: grey;
+    color: rgb(26, 25, 25);
 }
 .head{
     background-color: rgb(151, 171, 179);
@@ -67,10 +67,10 @@ nav a{
     margin: 135px;
 }
 .title{
-    color:rgb(17, 23, 26) ;
+    color:rgb(4, 5, 5);
     text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 800;
 }
 .details{
     color: rgb(17, 23, 26) ;
@@ -104,12 +104,13 @@ main section{
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
+    color: skyblue;
 }
 .skill{
     padding: 40px;
     border-radius: 5px;
-    background-color: rgb(33, 29, 29);
+    background-color: rgb(176, 186, 205);
     box-shadow: 0px 5px 50px 0px rgb(29, 28, 28);
 }
 .tile{
@@ -131,4 +132,32 @@ main section{
 .wrong{
     max-width: 1000px;
     margin: auto;
+}
+.footer{
+    display: flex;
+    background-color:rgb(151, 171, 179) ;
+    padding: 30px 150px;
+    margin-top: 100px;
+    gap: 150px;
+}
+.foot{
+    width: 50%;
+}
+.box input[type="text"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    width: 100%;
+    border: 0;
+}
+.descrip{
+    columns: white;
+}
+.all{
+    color: skyblue;
+}
+footer{
+    border-radius: 30;
+    padding: 60px;
 }
